@@ -1,9 +1,10 @@
 """
 Modèles de données pour le projet ETF Comparator.
 """
+
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import List, Optional, Dict
+from typing import Dict, List, Optional
 
 
 @dataclass
@@ -24,7 +25,7 @@ class ETFPriceData:
     date: datetime
     adj_close: float
     volume: Optional[int] = None
-    
+
 
 @dataclass
 class PerformanceMetrics:
@@ -36,7 +37,11 @@ class PerformanceMetrics:
     sharpe_ratio: float
     max_drawdown: float
     tracking_error: Optional[float] = None
+    information_ratio: Optional[float] = None
+    sortino_ratio: Optional[float] = None
     beta: Optional[float] = None
+    alpha: Optional[float] = None
+    r_squared: Optional[float] = None
     correlation: Optional[float] = None
 
 

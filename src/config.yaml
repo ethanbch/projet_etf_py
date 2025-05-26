@@ -7,11 +7,11 @@ data_sources:
 
 analysis_parameters:
   default_tickers:
-    - "ICLN"  # Clean Energy Example
-    - "BOTZ"  # AI & Robotics Example
-    - "HACK"  # Cybersecurity Example
-  default_period: "5y"  # 5 years
-  risk_free_rate: 0.01  # Example risk-free rate for Sharpe ratio
+    - "ICLN" # Clean Energy Example
+    - "BOTZ" # AI & Robotics Example
+    - "HACK" # Cybersecurity Example
+  default_period: "5y" # 5 years
+  risk_free_rate: 0.01 # Example risk-free rate for Sharpe ratio
 
 display:
   charts:
