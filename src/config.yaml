@@ -1,0 +1,23 @@
+database:
+  type: "sqlite"
+  path: "data/etf_analyzer.db"
+
+data_sources:
+  etf_metadata_csv: "src/input/etf_metadata.csv"
+
+analysis_parameters:
+  default_tickers:
+    - "ICLN"  # Clean Energy Example
+    - "BOTZ"  # AI & Robotics Example
+    - "HACK"  # Cybersecurity Example
+  default_period: "5y"  # 5 years
+  risk_free_rate: 0.01  # Example risk-free rate for Sharpe ratio
+
+display:
+  charts:
+    default_width: 800
+    default_height: 600
+    color_scheme:
+      - "#1f77b4"
+      - "#ff7f0e"
+      - "#2ca02c"

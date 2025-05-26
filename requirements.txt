@@ -1,0 +1,7 @@
+pandas>=2.0.0
+streamlit>=1.25.0
+yfinance>=0.2.0
+SQLAlchemy>=2.0.0
+PyYAML>=6.0.0
+openpyxl>=3.1.0  # Pour la prise en charge Excel avec pandas
+python-dotenv>=1.0.0  # Pour la gestion des variables d'environnement
